@@ -7,8 +7,32 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="secondary nav" type="boolean" value="true" -->
+<!-- TemplateParam name="banner" type="boolean" value="true" -->
 </head>
 
 <body>
+<table width="600" border="3" cellspacing="bold" cellpadding="bold">
+  <!-- TemplateBeginIf cond="banner" -->
+  <tr>
+    <td colspan="2"><img src="../Gallery/Banner.jpg" width="850" height="315" alt=""></td>
+  </tr>
+  <!-- TemplateEndIf -->
+  <tr>
+    <td colspan="2"><a href="../index.html">Home</a> <a href="../Services/index.html">Services</a> <a href="../About Us/index.html">About Us</a> <a href="../Gallery/index.html">Gallery </a><a href="../News&Events/index.html">News/Events</a></td>
+  </tr>
+  <tr>
+    <td><!-- TemplateBeginIf cond="_document['secondary nav']" -->
+      <p><a href="../Services/promotionsandoffers.html">Promotions/ Offers</a></p>
+      <p><a href="../About Us/locations.html">Locations </a></p>
+      <p><a href="../About Us/reviews.html">Reviews</a></p>
+      <p><a href="../News&Events/social media.html">Social Media</a></p>
+      <p><a href="../About Us/contact.html">Contact </a></p>
+    <!-- TemplateEndIf -->
+      <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+    <td><!-- TemplateBeginEditable name="General Content Area" --><!-- TemplateEndEditable --></td>
+  </tr>
+</table>
 </body>
 </html>
