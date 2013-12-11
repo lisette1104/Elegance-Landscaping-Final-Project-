@@ -9,6 +9,7 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="secondary nav" type="boolean" value="true" -->
 <!-- TemplateParam name="banner" type="boolean" value="true" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
